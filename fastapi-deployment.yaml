@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: fastapi:v1.0.0
+        image: ariman/fastapi:v1.0.0
         ports:
         - containerPort: 8990
