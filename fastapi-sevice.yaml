@@ -4,7 +4,7 @@ metadata:
   name: fastapi-service
 spec:
   selector:
-    app.kubernetes.io/name: fastapi
+    app: fastapi
   ports:
     - protocol: TCP
       port: 8990
